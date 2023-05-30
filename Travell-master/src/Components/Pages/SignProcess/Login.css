@@ -1,0 +1,140 @@
+
+.email1{
+    border: 1px solid red ;
+    border-radius: 5px;
+}
+
+ .container{
+    height: 100%;
+    width: 100vh;
+    background-image: url("E:\FYPcheck\fypcheck\src\Components\Images/steve-carter-Ixp4YhCKZkI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.rectangle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 603px;
+    height: 749px;
+    left: 419px;
+    top: 138px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 4px 24px rgba(221, 221, 221, 0.25);
+    backdrop-filter: blur(22.5px);
+    border-radius: 30px;
+}
+.login{
+    position: absolute;
+    width: 139px;
+    height: 75px;
+    left: 651px;
+    top: 193px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #0B2C47;
+    }
+
+.email{
+    position: absolute;
+    width: 76px;
+    height: 38px;
+    left: 465px;
+    top: 324px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #282828;
+}
+.input1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 520px;
+    height: 81px;
+    left: 461px;
+    top: 369px;
+    
+    border: 2px solid #0B2C47;
+    border-radius: 12px;
+}
+.password{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 465px;
+    top: 505px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #282828;
+}
+.input2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 520px;
+    height: 81px;
+    left: 461px;
+    top: 550px;
+    border: 2px solid #0B2C47;
+    border-radius: 12px;
+}
+.login-button{
+    position: absolute;
+    width: 520px;
+    height: 81px;
+    left: 461px;
+    top: 698px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.login{
+    position: absolute;
+    width: 66px;
+    height: 36px;
+    left: 688px;
+    top: 721px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0B2C47;
+}
+.text1{
+    position: absolute;
+    width: 386px;
+    height: 36px;
+    left: 527px;
+    top: 815px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0B2C47;
+}
+.line{
+    position: absolute;
+    width: 391px;
+    height: 0px;
+    left: 524px;
+    top: 851.5px;
+    
+    border: 2px solid #0B2C47;
+} 

@@ -1,0 +1,72 @@
+.top-container {
+  margin: 20px 0px 10px 70px;
+  //position: relative;
+  height: 640px;
+  width: 100%;
+}
+body {
+  background-color: white;
+}
+.top-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #011e3f;
+  padding-top: 30px;
+}
+.second-heading {
+  position: relative;
+  top: 70px;
+  letter-spacing: -0.01 em;
+  padding-bottom: 50px;
+  top-padding: 70px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 69px;
+  //text-transform: uppercase;
+  color: #011e3f;
+}
+.line-2 {
+  color: red;
+}
+.t4 {
+  position: relative;
+
+  margin-right: -110px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #011e3f;
+}
+.span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+.right-heading {
+  position: relative;
+  margin: 50px 10px 20px 100px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #767676;
+}
+.scene
+{
+  position: relative;
+  width: 421.63px;
+  height: 456px;
+  margin-left: 150px;
+  background: #000000;
+  border-radius: 18px;
+  margin-top: 50px;
+}

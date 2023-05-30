@@ -1,0 +1,88 @@
+.image-top {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.imagg {
+  height: 200px;
+}
+.headin {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  /* identical to box height, or 144% */
+  text-transform: capitalize;
+  color: #ff5f15;
+  margin-top: -25px;
+}
+.top-Container {
+  position: relative;
+  padding: 0px 60px 0px 60px;
+  margin: 10px 0px 5px 0px;
+}
+.row-border {
+  border: 5px solid #011e3e;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.for-image {
+  margin-left: -13px;
+  margin-top: -1px;
+  border-radius: 12px;
+  background-size: cover;
+}
+.h1-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 60px;
+  margin-top: -10px;
+  color: #011e3e;
+}
+.displayStack__2 {
+  margin: 0px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.numOfRatings {
+  display: flex;
+  justify-content: end;
+}
+.filled {
+  color: orange;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.hollow {
+  color: black;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.productRating {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.reviews {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin: -5px 0px 0px 0px;
+  /* identical to box height */
+
+  color: #0b2c47;
+}
+.para-graph {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+margin: -20px 0px 0px 0px;
+  color: #91a0ac;
+}

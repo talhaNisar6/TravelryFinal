@@ -1,0 +1,262 @@
+.frontPage {
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(69.61deg, #f9f4f0 1.06%, #aec3ce 55.77%);
+  //border: 1px solid rgb(54, 145, 184);
+  overflow: hidden;
+  margin: 0px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  /* position: relative; */
+}
+.textpart {
+  height: 464px;
+  width: 50%;
+  position: absolute;
+  /* border: 1px solid blue; */
+  /* top: 30px; */
+  margin-top: 80px;
+}
+.textpart h1 {
+  margin-left: 70px;
+  color: #011e3f;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 20px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.textpart p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 70px;
+  color: #767676;
+}
+.ExploreMore {
+  height: 60px;
+  width: 500px;
+  /* border: 1px solid red; */
+  margin-left: 170px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 20px;
+  z-index: 1;
+  position: absolute;
+}
+.ExploreMore ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 30px 20px 30px;
+}
+.ExploreMore ul li {
+  list-style: none;
+  font-weight: bold;
+}
+/* .ExploreMore li:nth-child(4){
+    background-color: rgb(38, 31, 54);
+    color: white;
+} */
+.ExploreMoreLastChild button {
+  height: 50px;
+  width: 130px;
+  background: #011e3f;
+  color: white;
+  border-radius: 10px;
+  margin-right: 0px;
+  padding: 0px 10px;
+  margin-top: -20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+}
+.ExploreMoreLastChild button:hover {
+  background-color: #767676;
+  color: white;
+  border: 2px solid black;
+}
+.ExploreMoreLastChild :active {
+  background-color: red;
+  color: white;
+}
+.popularSearches {
+  margin-left: 70px;
+  text-align: justify;
+  margin-top: 120px;
+}
+.popularSearches b {
+  font-family: "Poppins" san-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #011e3f;
+}
+.t {
+  font-family: "Poppins" san-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #767676;
+}
+.imagespart {
+  height: 464px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  /* top: 30px; */
+  /* border: 1px solid blue; */
+  margin-top: 50px;
+  padding-right: 80px;
+  position: absolute;
+  z-index: 0;
+}
+.maountainsGreen {
+  height: 180px;
+  width: 280px;
+  /* border: 1px solid red; */
+}
+.maountainsGreen img {
+  width: 260px;
+  height: 170px;
+  margin-left: 10px;
+}
+.chinaborder {
+  height: 280px;
+  width: 280px;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.chinaborder img {
+  width: 260px;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+.faisalmosque {
+  height: 400px;
+  width: 290px;
+  /* border: 1px solid red; */
+  margin-left: 290px;
+  margin-top: -460px;
+}
+.faisalmosque img {
+  height: 400px;
+  width: 290px;
+  background-size: cover;
+  background-position: center;
+}
+.ExploreMoreChilds button {
+  border: none;
+  background-color: transparent;
+  color: #ff844b;
+  font-size: 20px;
+  //margin-top: 2px;
+  //stroke-width: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .frontPage {
+    height: auto;
+  }
+  .textpart {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 100px;
+  }
+  .textpart h1 {
+    margin-left: 0px;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .textpart p {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .ExploreMore {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+  .ExploreMore ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 20px 0px;
+  }
+  .ExploreMoreLastChild button {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  .popularSearches {
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  .imagespart {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0%;
+    margin-top: 60px;
+    padding-right: 0px;
+  }
+  .maountainsGreen {
+    height: auto;
+    width: 100%;
+  }
+  .maountainsGreen img {
+    width: 100%;
+    height: auto;
+  }
+  .chinaborder {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .chinaborder img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .faisalmosque {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .faisalmosque img {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.i-container {
+  position: relative;
+  margin: 570px 50px 10px 70px;
+}
+
+.para {
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+margin:0px 0px 0px 10px;
+  color: #92adbb;
+}

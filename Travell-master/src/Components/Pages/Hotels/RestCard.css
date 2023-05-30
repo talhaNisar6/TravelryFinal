@@ -1,0 +1,63 @@
+.restaurant-card {
+  width: 520px;
+  //border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 0px;
+  text-align: start;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 15px;
+  //margin: -50px;
+  //padding-bottom: 100px;
+}
+
+.restaurant-name {
+  //font-size: 24px;
+  //font-weight: bold;
+  //margin-top: 16px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 44px;
+  padding: 10px 0px 15px 10px;
+  /* identical to box height */
+
+  color: #011e3f;
+}
+
+.restaurant-rating {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: -15px;
+  padding:5px 10px 10px 10px;
+}
+.rating-number {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #91a0ac;
+  margin-left: 40px;
+}
+
+.restaurant-address {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 39px;
+  padding: 0px 0px 5px 10px;
+  color: #91a0ac;
+  margin-top: 0px;
+}
